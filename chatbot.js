@@ -40,7 +40,7 @@ const handlePictureInPictureRequest = async event => {
 
 window.addEventListener('message', handlePictureInPictureRequest);
 
-const src = "https://www.jotform.com/s/umd/a22b552e46c/for-embedded-agent.js";
+const src = "https://www.jotform.com/s/umd/403df7a88ae/for-embedded-agent.js";
 const script = document.createElement('script');
 script.src = src;
 script.async = true;
@@ -49,7 +49,7 @@ script.onload = function() {
     agentRenderURL: "https://www.jotform.com/agent/019798c1fd517d649e3a7a186e173a31446e",
     rootId: "JotformAgent-019798c1fd517d649e3a7a186e173a31446e",
     formID: "019798c1fd517d649e3a7a186e173a31446e",
-    contextID: "01979d2af06777a9beded6472bdad1e99a01",
+    contextID: "01979d582dce780c942ba835d3ac25c7d77d",
     initialContext: "",
     queryParams: ["skipWelcome=1","maximizable=1","skipWelcome=1","maximizable=1"],
     domain: "https://www.jotform.com",
@@ -59,7 +59,7 @@ script.onload = function() {
     buttonIconColor: "#FFFFFF",
     inputTextColor: "#01105C",
     variant: false,
-    customizations: {"greeting":"Yes","greetingMessage":"Merhaba, size nas\u0131l yard\u0131mc\u0131 olabilirim?","openByDefault":"No","pulse":"Yes","position":"right","autoOpenChatIn":"5000"},
+    customizations: {"greeting":"Yes","greetingMessage":"Hi! How can I assist you?","openByDefault":"No","pulse":"Yes","position":"right","autoOpenChatIn":"0","layout":"minimal"},
     isVoice: false,
     isVoiceWebCallEnabled: false
   });
