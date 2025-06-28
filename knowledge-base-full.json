@@ -1,0 +1,577 @@
+{
+  "kv331KnowledgeBase": {
+    "companyInfo": {
+      "name": "KV331 Audio",
+      "legalName": "KV331 Yazilim Ltd. Sti.",
+      "copyright": "Copyrights © 2004-2019 All Rights Reserved by KV331 Yazilim Ltd. Sti.",
+      "policies": [
+        "Terms of Service",
+        "Privacy Policy",
+        "Refund Policy"
+      ],
+      "contactEmail": "info@kv331audio.com",
+      "newsletter": "Subscribe to our Newsletter to get Important News & Amazing Offers"
+    },
+    "products": {
+      "desktop": [
+        {
+          "name": "SynthMaster 3",
+          "tagline": "Powerful all-around synth with modular architecture",
+          "link": "https://www.kv331audio.com/synthmaster3.aspx",
+          "formats": ["VST2", "VST3", "AudioUnits", "AAX"],
+          "description": "SynthMaster 3 is KV331 Audio's flagship all-around modular software synthesizer. It features many different synthesis methods including VAnalog, Additive, Vector, Wavetable, Granular, Phase Modulation, Phase Distortion, Frequency Modulation, Pulse Width Modulation, Ring Modulation, Physical Modeling and SFZ Sample Playback.",
+          "pricing": {
+            "regular": "990,00 TL",
+            "rentToOwn": true,
+            "upgrades": [
+              { "from": "SynthMaster 2", "price": "290,00 TL" },
+              { "from": "SynthMaster One", "price": "490,00 TL" },
+              { "from": "SynthMaster 2 Player", "price": "790,00 TL" }
+            ]
+          },
+          "presets": {
+            "count": 3000,
+            "designers": ["Arksun", "Aiyn Zahev", "BigTone", "Cipryan Bot", "Davide Puxeddu", "Demis Hellen", "Gercek Dorman", "NatLife", "New Loops", "Nori Ubukata", "Selcuk Ergen", "Xenos Soundworks", "XTD", "Yuli Yolo"]
+          },
+          "features": [
+            {
+              "title": "Modular Architecture",
+              "content": "Each SynthMaster 3 instance can have up to 16 Layers. Each layer can have up to 16 modules. Generator modules: Basic Oscillator, Additive Oscillator, Vector Oscillator, Wavetable Oscillator, VAnalog Oscillator, Granular Oscillator and Modulator. Effect modules: Digital Filter, VAnalog Filter, State Variable Filter, Ladder Filter, Diode Ladder Filter, Bite Filter, Comb Filter, Phaser Filter, Formant Filter and Waveshaper. Each layer can have up to 32 modulation sources: ADSR Envelope, Multistage Envelope LFO, Step LFO, Noise LFO Scaler. The Routing tab provides a visual representation of the signal flow."
+            },
+            {
+              "title": "Multiple View Types",
+              "content": "SynthMaster 3 provides 3 different types of views to edit layer parameters: Layer View, Track View, and Mix View."
+            },
+            {
+              "title": "Granular Oscillator",
+              "content": "The new granular oscillator applies granular synthesis on a single sample, multisample or wavetable. It features up to 16 'voices' with each having up to 32 grains, resulting in up to 512 grains per oscillator. Each voice can have different settings with the help of spread parameters and randomization."
+            },
+            {
+              "title": "VAnalog Oscillator",
+              "content": "The new VAnalog oscillator generates its output in real-time using curve segments to mimic how analog circuits generate waveforms. It has 2 wave shapes that can morph and an additional sub oscillator. It features up to 16 'voices' with spread parameters."
+            },
+            {
+              "title": "Wave Shaper",
+              "content": "The new Waveshaper effect comes with different types of distortion algorithms: Soft Tanh, Soft ATan, Heavy, Fuzz, Fold Sine, Fold Tri, Fold Round, Rectify Full, Rectify Half, Clip and Bitcrush. There is also a Custom algorithm which allows users to draw their own distortion curve."
+            },
+            {
+              "title": "Phaser Filter",
+              "content": "The new phaser filter is similar to the phaser effect. However, as being a polyphonic effect, it operates per voice. It uses multiple allpass filters mixed with the input to create phasing effects."
+            },
+            {
+              "title": "Formant Filter",
+              "content": "The new formant filter uses a parallel bank of filters to create vowel sounds. Users can select the initial and final vowels (formants) and morph between them."
+            },
+            {
+              "title": "Noise LFO",
+              "content": "The new Noise LFO modulation source can be used to generate sample and hold noise. It generates different types of noises (white, pink, brown, violet, blue), which are sampled and held, bit reduced, and then passed through an attack/decay envelope follower."
+            },
+            {
+              "title": "Scaler",
+              "content": "The Keyscaler modulation source in SynthMaster 2 is vastly improved. It is now called Scaler, as users can select another modulation source as its input and use the scaler as a waveshaper for its input."
+            },
+            {
+              "title": "Arpeggiator / Sequencer",
+              "content": "Each Layer in SynthMaster 3 has a separate arpeggiator and sequencer. The MIDI input signal first goes through the sequencer followed by the arpeggiator. Each layer has its own MIDI output channel."
+            },
+            {
+              "title": "Preset Browser",
+              "content": "Features an intuitive preset browser with advanced search features. It is backwards compatible with SynthMaster One and SynthMaster 2 presets. It provides instant previews for presets that have NKS previews prepared."
+            },
+            {
+              "title": "Waveform Editor",
+              "content": "Comes with a comprehensive Waveform Editor to create single cycle waveforms using curve segments or by free hand drawing."
+            },
+            {
+              "title": "Wavetable Editor",
+              "content": "Comes with a comprehensive Wavetable Editor to create wavetables from single cycle waveforms or sample/wavetable files. 7 types of wavetable effects are available. Can be exported in WAV format."
+            },
+            {
+              "title": "Multi Sample Editor",
+              "content": "Comes with a comprehensive Multi-Sample Editor to create multi samples by dragging and dropping wav/aiff files. Can be exported in SFZ format."
+            }
+          ],
+          "demo": {
+            "title": "Demo Version Limitations",
+            "limitations": [
+              "The demo stops working after 30 minutes.",
+              "The demo saves presets but they can only be opened with the paid version of the plug-in.",
+              "The demo emits noise at every minute.",
+              "Exporting multi-samples in sfz format is disabled.",
+              "Exporting wavetables in WAV format is disabled.",
+              "Samples in Factory Sample Library have 13 bit resolution."
+            ]
+          }
+        },
+        {
+          "name": "SynthMaster One",
+          "tagline": "Wavetable Software Synth with Easy Workflow",
+          "link": "https://www.kv331audio.com/synthmasterone.aspx",
+          "description": "SynthMaster One is an easy to use wavetable synthesizer with an intuitive workflow. Although it shares the same engine with its bigger brother SynthMaster, it comes with new features like wavetable synthesis. With its simple layout, rich wavetable/waveform content and inspiring factory presets library, designing new sounds with SynthMaster One is a real joy.",
+          "pricing": {
+            "regular": "590,00 TL",
+            "crossgrade": { "from": "SynthMaster 2", "price": "590,00 TL" },
+            "upgrade": { "from": "SynthMaster Player", "price": "590,00 TL" },
+            "academicDiscount": "Students, teachers and instructors can get a 40% discount at the checkout"
+          },
+          "presets": {
+            "count": 1250,
+            "designers": ["Arksun", "Aiyn Zahev", "BT", "Bluffmunkey", "BigTone", "Frank 'Xenox' Neumann", "Kevin Schroeder", "Kurt Ader", "Nori Ubukata", "Rob Lee", "Vandalism", "Vorpal Sound", "Gercek Dorman", "Selcuk Ergen", "Ufuk Kevser", "Bulent Biyikoglu", "Brian 'Xenos' Lee"]
+          },
+          "features": [
+            {
+              "title": "New Features with the 1.3 Update",
+              "content": "New White Skin by Satyatunes (80% to 200%). 200 new factory presets by BT, Kurt Ader and Luke Neptune. Rich scale library. Cloud based cross-platform data syncronization. New Envelope Types: Digital, Profat and Oobee. Improved microtuning features. Custom preset attributes/styles. Editing MIDI Banks and Programs. Filtering Presets by Last Modified Date."
+            },
+            {
+              "title": "Cross Platform",
+              "content": "Runs as a VST instrument on both Windows and Mac OSX, and also as an Audio Unit instrument on Mac OSX and on iOS. On Windows, it runs as a standalone application as well."
+            },
+            {
+              "title": "Stereo Oscillators with Unison/Voice Stacking",
+              "content": "Oscillators in SynthMaster have stereo output. Using the 'voices', 'voices mix', 'detune curve', 'detune spread', 'pan stread', 'tone spread' and 'phase spread' parameters, each basic/wavetable oscillator can generate a rich 'supersaw' type sound with up to 16 voices 'unison'."
+            },
+            {
+              "title": "Basic Oscillators",
+              "content": "Capable of synthesizing many different types of waveforms: Sine, Square, Triangle, Sawtooth, Pulse, Noise, single cycle waveforms. Each oscillator comes with 17 different algorithms in Spectral, Bend, Sync, Pulse, and Quantize categories."
+            },
+            {
+              "title": "Wavetable Synthesis",
+              "content": "Implements true wavetable synthesis which opens up new possibilities for sound design. You can import wave files that contain wavetables into SynthMaster One and use them in your projects."
+            },
+            {
+              "title": "Semi Modular Architecture",
+              "content": "For each SynthMaster One instance, there are 2 oscillators with 2 sub oscillators, 2 Filters, 4 ADSR Envelopes, 2 LFOs, a powerful 16 step arpeggiator/sequencer and also 11 different effects that can be inserted on to 6 FX insert slots."
+            },
+            {
+              "title": "Filters - Zero Delay Feedback",
+              "content": "All of the 4 new filter categories in SynthMaster One are developed using the zero delay feedback filter technology. Filter Types: Ladder, Diode Ladder, State Variable, Bite."
+            },
+            {
+              "title": "Rich set of Effects",
+              "content": "SynthMaster features 11 different effect types: Distortion, LoFi, Ensemble, Phaser, 6 Band EQ, Compressor, Vocoder, Delay, Chorus, Tremolo, Reverb. Each can be inserted on any layer insert or on any of the 2 global effect bus inserts."
+            },
+            {
+              "title": "32 step Sequencer/Arpeggiator",
+              "content": "Features classic arpeggiator modes such as Up, Down, UpDown, etc., as well as Sequence, Chord and Arpeggiate modes. Monophonic or polyphonic MIDI patterns can be imported via drag and drop."
+            },
+            {
+              "title": "Microtuning",
+              "content": "SynthMaster supports Scala tuning, so tuning can be set either for each preset or globally by loading from a Scala tuning file."
+            },
+            {
+              "title": "Preset Browser",
+              "content": "Features a comprehensive preset browser with separate search criterias for instrument type, preset attributes, music style or preset author."
+            }
+          ]
+        },
+        {
+          "name": "SynthMaster 2 Player",
+          "tagline": "ROMpler synth player with 2000 factory presets",
+          "link": "https://www.kv331audio.com/synthmasterplayer.aspx",
+          "description": "SynthMaster 2 Player is a simplified version of SynthMaster 2 with limited editing capabilities. It is targeted towards users who prefer to use presets rather than designing their own sounds. It comes with 2000 factory presets. Users can edit the 12 easy parameters or the bypass states of layer/global effects assigned for each preset by the sound designer.",
+          "freeVersion": "There is also a FREE version of SynthMaster 2 Player that comes with 550 factory presets.",
+          "pricing": {
+            "regular": "190,00 TL",
+            "includes": "1 FREE EXPANSION!"
+          },
+          "presets": {
+            "count": 2000,
+            "designers": ["Arksun", "Aelyx Design", "Aiyn Zahev", "BT", "Bluffmunkey", "BigTone", "Frank 'Xenox' Neumann", "Kevin Schroeder", "Nori Ubukata", "Rob Lee", "Vandalism", "Vorpal Sound", "Gercek Dorman", "Selcuk Ergen", "Umit Uy", "Ufuk Kevser", "Bulent Biyikoglu", "Brian 'Xenos' Lee"]
+          },
+          "features": [
+            {
+              "title": "Cross Platform",
+              "content": "Runs as a VST, AAX instrument on both Windows and Mac OSX, and as an Audio Unit instrument on Mac OSX and iOS."
+            },
+            {
+              "title": "Easy Parameters",
+              "content": "Each preset in SynthMaster Player has 8 easy knobs and 2 XY pads assigned by the sound designer. Users can edit these parameters to modify the preset's timbre. The easy parameters can be linked to MIDI controllers."
+            },
+            {
+              "title": "Microtuning",
+              "content": "Supports Scala tuning, so tuning can be set either for each preset or globally by loading from a Scala tuning file."
+            },
+            {
+              "title": "Preset Browser",
+              "content": "Features a comprehensive preset browser with separate search criterias for instrument type, preset attributes, music style or preset author."
+            },
+            {
+              "title": "Multiple Skins",
+              "content": "Comes with 2 different skins in different color variations. Users can create their own custom interfaces using the user interface editor."
+            }
+          ]
+        }
+      ],
+      "mobile": [
+        {
+          "name": "SynthMaster 2 for iOS",
+          "tagline": "Award Winner Synth with Awesome Presets on your iPad",
+          "link": "https://www.kv331audio.com/synthmasterios.aspx",
+          "description": "As being the first app developed using KV331 Audio’s new cross-platform UI framework, SynthMaster 2 runs as a standalone app or AUv3 plugin on iPads with iOS 11 and above. SynthMaster 2 supports native resolutions of various iPad devices.",
+          "pricing": {
+            "regular": "$19.99"
+          },
+          "presets": {
+            "count": 1000,
+            "designers": ["BigTone", "Nori Ubukata", "NatLife", "Yuli Yolo"]
+          },
+          "features": [
+            {
+              "title": "Sound Engine",
+              "content": "Oscillators can operate in 4 different modes: Basic, Additive, Wavetable, Vector. Modulators are basic oscillators that can modulate other oscillators' phases for complex FM tones. Users can import wave files. Filters can operate in 6 different categories: Digital, VAnalog, Ladder, Diode Ladder, State Variable and Bite."
+            },
+            {
+              "title": "Modulation Architecture",
+              "content": "Comprehensive modulation architecture with a wide range of sources: MIDI controls, Macros controls, ADSR envelopes, Multisegmented envelopes, LFOs, Sequencers, Keyscalers. Real-time visual feedback. New modulations can be created easily by dragging and dropping."
+            },
+            {
+              "title": "Arp/Sequencer",
+              "content": "Features a comprehensive arpeggiator / sequencer with 32 steps. Users can easily create sequences by recording steps one by one."
+            },
+            {
+              "title": "Effects",
+              "content": "Each of the 2 layers in SynthMaster has 5 insert effect slots. 13 different types of effects can be instantiated in any of those slots. There are also 2 global effect send busses."
+            }
+          ]
+        },
+        {
+          "name": "SynthMaster One iOS",
+          "tagline": "Wavetable Software Synthesizer",
+          "link": "https://www.kv331audio.com/synthmasteroneios.aspx",
+          "description": "The mobile version of KV331 Audio's SynthMaster One software synthesizer. SynthMaster One iOS is feature wise identical to the desktop version except: 16 voice polyphony (32 for desktop), comes with 650 presets (1250 for desktop).",
+          "pricing": {
+            "universalApp": "$9.99",
+            "iphoneOnlyApp": "FREE"
+          },
+          "presets": {
+            "count": 650,
+            "designers": ["Arksun", "Aiyn Zahev", "BigTone Studios", "Brian Transeau", "Bluffmunkey", "Bulent Biyikoglu", "Gercek Dorman", "Dejavu Sound", "Fragment Audio", "Kurt Ader", "Mirko Ruta", "Nori Ubukata", "Rob Lee", "Ufuk Kevser", "Selcuk Ergen", "The Machine", "Vandalism Sound", "Venus Theory", "Vorpalsound", "Xenos Soundworks"]
+          },
+          "features": [
+            { "title": "AuV3", "content": "Supports AudioUnits V3, allowing multiple instances to run under supporting DAW apps like GarageBand, Cubasis or Beat Maker." },
+            { "title": "Files App Integration", "content": "Easily import/export presets, waveforms or scales using the common file browser UI (requires iOS 11+)." },
+            { "title": "Realtime Modulation Feedback", "content": "See in real-time how modulation sources and targets change." },
+            { "title": "Cross Platform Cloud Synchronization", "content": "Easily synchronize your SynthMaster One related data across multiple platforms (Windows, MacOS, iPad, iPhone)." },
+            { "title": "Semi modular Architecture", "content": "2 oscillators with 2 sub oscillators, 2 Filters, 4 ADSR Envelopes, 3 LFOs, a powerful 16 step arpeggiator/sequencer and also 11 different effects." },
+            { "title": "Stereo Oscillators with up to 16 voices Unison", "content": "Each of the 2 oscillators can have up to 16 voices 'unison'." },
+            { "title": "Wavetable Synthesis", "content": "Implements true wavetable synthesis. Extend library by dragging and dropping wavetable files using the Files App." },
+            { "title": "Sequencer/Arpeggiator with 32 steps", "content": "Features classic arpeggiator modes as well as Sequence, Chord and Arpeggiate modes." },
+            { "title": "Zero Delay Feedback Filters", "content": "4 filter categories are developed using zero delay feedback filter technology." },
+            { "title": "Rich Set Of Effects", "content": "11 different effect types: Distortion, LoFi, Ensemble, Phaser, 6 Band EQ, Compressor, Vocoder, Delay, Chorus, Tremolo, Reverb." },
+            { "title": "Microtuning", "content": "Supports Scala tuning." },
+            { "title": "Supported Technologies", "content": "All 64-bit iPad devices, AUv3 Audio Unit Extensions, Note-per-channel MIDI controllers (MPE), Ableton Link, Interapp Audio and AudioBus, Bluetooth LE MIDI Controllers, AirDrop." }
+          ]
+        },
+        {
+          "name": "SynthMaster Player for iOS",
+          "tagline": "Awesome Presets on your iPad or iPhone",
+          "link": "https://www.kv331audio.com/synthmasterplayerios.aspx",
+          "description": "The mobile player version of SynthMaster. It is targeted towards users who prefer to use presets. Users can edit: 8 easy parameters, 2 XY Pads, Effect bypass states and send amounts, Layer bypass states and volumes, Master volume, polyphony.",
+          "pricing": {
+            "free": "The free app comes with 100 factory presets. When users complete registration they receive another 100 factory presets as a bonus.",
+            "proUpgrade": "After completing registration, users can upgrade to the Pro version by purchasing the 'Factory Presets' bank via In-App-Purchase (IAP) for $4.99. With the Pro Upgrade all of the 800 factory presets are loaded and also the following features are unlocked: save changes, purchase additional banks, download previously purchased banks."
+          },
+          "features": [
+            { "title": "Factory Presets", "content": "The FREE app comes with 100 presets, when the users register they can get another 100 for free. Pro upgraded users get 800 presets." },
+            { "title": "AuV3", "content": "Supports AudioUnits V3, allowing multiple instances to run under supporting DAW apps." },
+            { "title": "Built in Keyboard/Pads/Fretboard", "content": "Easily play and make music with the on screen keyboard, 3x8 pads and a guitar type fretboard. All inputs support scales." },
+            { "title": "Microtuning", "content": "Supports Scala tuning, the tuning can be set globally by loading from a Scala tuning file." },
+            { "title": "User Defined Scales", "content": "Comes with many popular musical scales and you can add your own scales." }
+          ]
+        }
+      ]
+    },
+    "bundles": [
+      {
+        "name": "SynthMaster Everything Bundle",
+        "tagline": "Great choice for ultimate music production",
+        "link": "https://www.kv331audio.com/synthmastereverythingbundle.aspx",
+        "description": "SynthMaster Everything Bundle comes with SynthMaster One, SynthMaster 2, SynthMaster 3 and all current / future presets banks released by KV331 Audio. The bundle includes more than 7200 presets (with factory content from SynthMaster 1 + 2 + 3 and 52 expansions), and it is 65% cheaper compared to the individual product prices combined.",
+        "pricing": {
+          "regular": "2990,00 TL",
+          "upgrades": [
+            { "from": "SynthMaster 3", "price": "1790,00 TL" },
+            { "from": "SynthMaster 2", "price": "1990,00 TL" },
+            { "from": "SynthMaster One", "price": "2390,00 TL" },
+            { "from": "1+2", "price": "1490,00 TL" },
+            { "from": "Player 2", "price": "2790,00 TL" },
+            { "from": "SynthMaster 2 Academic", "price": "1990,00 TL" }
+          ]
+        }
+      },
+      {
+        "name": "SynthMaster Producer Bundle",
+        "tagline": "3 GREAT PLUGINS WITH 10 EXPANSION PACKS INCLUDED",
+        "link": "https://www.kv331audio.com/synthmasterstandardbundle.aspx",
+        "description": "SynthMaster Producer Bundle comes with SynthMaster One, SynthMaster 2, SynthMaster 3 and 10 preset expansion banks of your choice. The bundle includes more than 4700 presets (with factory content from SynthMaster One + SynthMaster 2 + SynthMaster 3 and 10 expansions), and it is 55% cheaper compared to the individual product prices combined.",
+        "pricing": {
+          "regular": "1490,00 TL",
+          "upgrades": [
+            { "from": "SynthMaster 3", "price": "590,00 TL" },
+            { "from": "SynthMaster 2", "price": "790,00 TL" },
+            { "from": "SynthMaster One", "price": "990,00 TL" },
+            { "from": "SynthMaster Player", "price": "1390,00 TL" }
+          ]
+        }
+      }
+    ],
+    "expansionPacks": {
+      "synthMaster3": [
+        {
+          "name": "New Loops Cinematic Sounds Volume 1",
+          "price": "150,00 TL",
+          "presetCount": 50,
+          "genre": "Cinematic",
+          "description": "Here's New Loops's 1st expansion for SynthMaster 3. Comes with 50 presets for Cinematic genre."
+        }
+      ],
+      "synthMaster2": {
+        "count": 38,
+        "link": "https://www.kv331audio.com/synthmasterexpansions.aspx",
+        "description": "There are currently 38 preset expansion banks for SynthMaster 2 and SynthMaster 2 Player which contain more than 2300 presets for various genres.",
+        "packs": [
+          { "name": "NatLife Future Electro Sounds", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "includes 60 presets suitable for Future Electro, Electro House and Electro Disco genres" },
+          { "name": "NatLife Future Bass Sounds", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "includes 48 presets suitable for Future Bass, Tech House and Progressive House genres." },
+          { "name": "NatLife Disco Funk for SynthMaster", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Includes 50 presets suitable for Disco Funk, Synthpop and Synthwave genres." },
+          { "name": "Alonso Sound Future Rave", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "50 presets for Future Rave genre." },
+          { "name": "Burak Yeter Synth Sounds Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 70 presets that are remakes of sounds featured in Burak Yeter's songs." },
+          { "name": "Nori Ubukata Japans Vintage", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "This vintage sounding expansion bank comes with 50 presets and uses sampled waveforms of YAMAHA CS-10,CS-15,SY99, Roland SH-5 and System 700, KORG 800DV(Maxi KORG)." },
+          { "name": "Michael Kastrup Expansion", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 53 awesome presets!" },
+          { "name": "Big Tone Analog Basics", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 'analog' presets." },
+          { "name": "Big Tone Analog Basics Volume 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 'analog' presets." },
+          { "name": "Big Tone Tableworks", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains presets that use wavetables created by BigTone." },
+          { "name": "Big Tone Tableworks Volume 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 50 presets that use wavetables created by BigTone." },
+          { "name": "Aiyn Zahev Expansion 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Features 50 presets in the following genres: Trance, dubstep, house and electro." },
+          { "name": "Aiyn Zahev Expansion 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 60 awesome presets geared towards dance, electro and edm!" },
+          { "name": "Big Tone Signature Sounds Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "50 awesome presets that are in BigTone's signature style." },
+          { "name": "Big Tone Techno Bits Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "A great preset expansion bank for techno lovers. Contains 50 presets." },
+          { "name": "Ufuk Kevser EDM Stars Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "50 awesome presets EDM lovers will quickly recognize!" },
+          { "name": "Ufuk Kevser EDM Stars Volume 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "You will hear sounds from popular EDM songs of David Guetta, Avicii, Calvin Harris, DVBBS and Nicky Romero in this awesome bank! Comes with 46 presets." },
+          { "name": "Frank Neumann SythMaster Club Sequences Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "50 sequences with variations, and as a bonus 20 arps and 20 basses. " },
+          { "name": "Insigna Essentials 4 Clubbin", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "162 fresh new presets for techno, trance, electro and breakbeat genres!" },
+          { "name": "Danyella EDM Expansion Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "44 presets for trance, house, electro, techno, ambient and dubstep genres." },
+          { "name": "Nori Ubukata Pop Hits Volume 4", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "76 presets that are recreations of sounds in Lady Gaga's 'Artpop' album!" },
+          { "name": "Nori Ubukata Dawn of Electronic Music Volume 3", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Features recreations of sounds from Kraftwerk and Tangerine Dream." },
+          { "name": "Nori Ubukata Pop Hits Volume 3", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Recreates the sounds heard in Lady Gaga's 'Born This Way' album." },
+          { "name": "Rob Lee EDM Expansion 5", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 50 fresh new presets." },
+          { "name": "Nori Ubukata Dawn of Electronic Music Volume 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Recreates sounds heard in famous Yellow Magic Orchestra and Depeche Mode songs." },
+          { "name": "Nori Ubukata Pop Hits Volume 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Recreations of sounds heard in Lady Gaga's 'Fame Monster' album." },
+          { "name": "Nori Ubukata Dawn of Electronic Music Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 57 presets that are recreations of sounds heard in popular Kraftwerk songs." },
+          { "name": "Nori Ubukata Art Rock Basics", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "This bank has samples in it: 5 Mellotrons and 2 Chapman Sticks! Perfect for Progressive/Psychedelic Rock genres!" },
+          { "name": "Nori Ubukata Historic Synth Giants Volume 4", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Nori created the synth sounds from Wendy Carlos, Isao Tomita and Jean Michel Jarre." },
+          { "name": "Nori Ubukata Sounds of the World", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Features multisamples of ethnic instruments in SFZ format: Indian Santoor, Indian conch horn, Tingsha, Sarod, Shaku-hachi, Rattles & Cans." },
+          { "name": "Nori Ubukata Historic Synth Giants Volume 3", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Recreations of sounds from Chick Corea, Herbie Hancock and Joe Zawinul!" },
+          { "name": "Nori Ubukata Historic Synth Giants Volume 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Recreations of sounds from Vangelis, Rick Wakeman, Keith Emerson and Eddie Jobson." },
+          { "name": "Nori Ubukata Historic Synth Giants Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Contains 52 presets that are recreations of synth sounds from well known Pink Floyd and Genesis songs." },
+          { "name": "Nori Ubukata Pop Hits Volume 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "This bank contains recreations of sounds from Lady Gaga's 'The Fame' album." },
+          { "name": "Rob Lee EDM Expansion 4", "price": "150,00 TL", "salePrice": "50,00 TL" },
+          { "name": "Rob Lee EDM Expansion 3", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Geared towards EDM, and contains 100 presets." },
+          { "name": "Rob Lee EDM Expansion 2", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "Geared for EDM." },
+          { "name": "Rob Lee EDM Expansion 1", "price": "150,00 TL", "salePrice": "50,00 TL", "description": "This bank comes with 100 presets suitable for EDM & House genres." }
+        ]
+      },
+      "synthMasterOne": {
+        "count": 14,
+        "link": "https://www.kv331audio.com/synthmasteroneexpansions.aspx",
+        "bundleInfo": "Instead of buying each expansion pack separately, you can buy all as a bundle and save at least 40%!",
+        "packs": [
+          { "name": "NatLife True Trance Sounds Volume 1", "price": "150,00 TL", "description": "Contains 60 presets for trance, progressive trance and tech trance genres." },
+          { "name": "NatLife Retrowave Sounds Volume 1", "price": "150,00 TL", "description": "Contains 60 presets for synthwave, synthpop and cyberpunk genres." },
+          { "name": "NatLife Progressive & Deep Volume 1", "price": "150,00 TL", "description": "Contains 50 presets for Melodic Techno, Progressive House and Progressive Trance genres." },
+          { "name": "NatLife Psychodelive Sounds Volume 1", "price": "150,00 TL", "description": "Contains 60 presets for Psychedelic Trance, Full-On and Dark Psy genres." },
+          { "name": "NatLife Cybertrance Volume 1", "price": "150,00 TL" },
+          { "name": "NatLife Ambient & Chill Volume 1", "price": "150,00 TL", "description": "Includes 60 preset sutable for ambient/chillout genres." },
+          { "name": "Vandalism Shocking Future House", "price": "150,00 TL", "description": "Contains 60 fresh new presets for Future House, G House and Deep House genres." },
+          { "name": "Vandalism Shocking Future Bass", "price": "150,00 TL", "description": "Contains 60 presets for Future Bass, Future Pop and Trap genres." },
+          { "name": "Vandalism Shocking Tech&Slap House", "price": "150,00 TL", "description": "Contains 60 presets for Tech House and Slap House genres." },
+          { "name": "Demis Hellen Euphoric Trance", "price": "150,00 TL", "description": "Contains 64 presets for trance, uplifting trance and progressive trance genres!" },
+          { "name": "Venus Theory Trap Sounds", "price": "150,00 TL", "description": "Contains 60 presets for Trap, Dark R&B and Downtempo genres." },
+          { "name": "Bluffmunkey Darkwave Sounds", "price": "150,00 TL", "description": "Contains 50 presets for Darkwave, Synthwave and Darksynth genres." },
+          { "name": "Bluffmunkey Cinematic Sounds", "price": "150,00 TL", "description": "Contains 50 presets for Cinematic, Ambient and Score genres." },
+          { "name": "Big Tone Club Construction Set", "price": "150,00 TL", "description": "Contains 50 presets for techno, tech house, deep house and melodic trance genres." }
+        ]
+      }
+    },
+    "downloads": {
+      "link": "https://www.kv331audio.com/downloads.aspx",
+      "demos": [
+        { "name": "SynthMaster 3 for Windows Demo", "version": "3.3.2", "date": "5/26/2025", "size": "974 MB", "file": "synthmaster3windowsdemosetup_rev16223.zip" },
+        { "name": "SynthMaster 3 for MacOS Demo", "version": "3.3.2", "date": "5/26/2025", "size": "1.0 GB", "file": "synthmaster3macdemosetup_rev16222.zip" },
+        { "name": "SynthMaster One for Windows v1.6 Demo", "version": "1.6.1", "date": "5/31/2025", "size": "243 MB", "file": "synthmasteronewindowsdemosetup_rev16244.zip" },
+        { "name": "SynthMaster One for MacOS v1.6 Demo", "version": "1.6.1", "date": "5/31/2025", "size": "335 MB", "file": "synthmasteronemacosxdemosetup_rev16244.zip" },
+        { "name": "SynthMaster 2 VST/VSTi/AU/AAX for MacOS Demo", "version": "2.9.17", "date": "6/10/2024", "size": "440 MB", "file": "synthmastermacosxdemosetup_rev15288.zip" },
+        { "name": "SynthMaster 2 VST/VSTi/AAX/Standalone for Windows Demo", "version": "2.9.17", "date": "6/10/2024", "size": "348 MB", "file": "synthmasterwindowsdemosetup_rev15288.zip" }
+      ],
+      "freePlayers": [
+        { "name": "SynthMaster 2 Player Free for Windows", "version": "2.9.18", "date": "5/31/2025", "size": "181 MB", "file": "synthmasterplayerfreewindowssetup_rev16243.zip" },
+        { "name": "SynthMaster 2 Player Free for MacOS", "version": "2.9.18", "date": "5/31/2025", "size": "469 MB", "file": "synthmasterplayerfreemacosxsetup_rev16243.zip" }
+      ],
+      "manuals": [
+        { "name": "SynthMaster User Manual", "version": "2.8.4", "date": "12/21/2020", "size": "8.0 MB", "file": "synthmasterusermanual.pdf", "description": "Documentation for SynthMaster 2.8" }
+      ]
+    },
+    "faq": [
+        {
+            "category": "System Requirements",
+            "question": "What are the system requirements for SynthMaster / SynthMaster Player ?",
+            "answer": "CPU: 2.0 Ghz, Intel SSE3 instruction set RAM: 2 GB Windows: Windows 7 and above MacOSX: MacOSX 10.9 and above For AAX: ProTools 11 and above"
+        },
+        {
+            "category": "SynthMaster DEMO",
+            "question": "What are the limitations of SynthMaster Demo version ?",
+            "answer": "SynthMaster Demo version is identical to SynthMaster except the following limitations: 1) Saving presets is disabled 2) The demo stops working after 15 minutes 3) Comes with 650 factory presets"
+        },
+        {
+            "category": "Purchasing",
+            "question": "I purchased your products through a 3rd party shop. How do I register?",
+            "answer": "Please go to our registration page and register your purchased product there."
+        },
+        {
+            "category": "Purchasing",
+            "question": "How can I use multiple coupons while purchasing products on your website ?",
+            "answer": "Use of multiple coupons is not supported currently. Instead, watch out for our seasonal sales so you can combine those coupons with the already discounted prices!"
+        },
+        {
+            "category": "Purchasing",
+            "question": "Do I have to create a PayPal account to make a purchase on your website ?",
+            "answer": "No, that is not required. You can purchase without opening up a PayPal account."
+        },
+        {
+            "category": "Purchasing",
+            "question": "When I try to make my purchase, I receive error messages from PayPal, such as 'The customer doesn't have sufficient funds in his account'",
+            "answer": "We have no control on the payment processing. If PayPal is throwing an error, you should contact them or your credit card company to verify your account balance."
+        },
+        {
+            "category": "Purchasing",
+            "question": "I am trying to purchase Everything Bundle, but on the purchase page it's asking me to enter my SynthMaster serial number.",
+            "answer": "You are trying to purchase Everything Bundle Upgrade, which is for existing users. Please purchase Everything Bundle on the purchase page at: http://www.synthmaster.com/purchase.aspx?product=4"
+        },
+        {
+            "category": "Installation",
+            "question": "I downloaded SynthMaster VST/AAX setup for Windows, and ran the setup. I am getting the following error: 'Source file not found: SynthMasterLicenseKey.txt'",
+            "answer": "You should first unzip the downloaded zip file to a temporary folder and then run the setup. The zip file includes your license key file, which is intstalled by the setup to the correct location."
+        },
+        {
+            "category": "Installation",
+            "question": "When I instantiate SynthMaster, I get the following error: 'The following folder specified in SynthMasterFolders.txt is not a valid installation folder' and SynthMaster doesn't start.",
+            "answer": "You installed the latest update, not the initial/full setup. Please download the initial/full setup at: MacOSX: http://www.synthmaster.com/downloadfile.aspx?fileId=43 Windows: http://www.synthmaster.com/downloadfile.aspx?fileId=48"
+        },
+        {
+            "category": "Installation",
+            "question": "I installed SynthMaster/SynthMaster Player, however my DAW application did not detect it.",
+            "answer": "Please make sure you installed the VST dlls/files to the folder where your DAW app scans for VST plugins. You might also have to rescan depending on the DAW app you are using."
+        },
+        {
+            "category": "Installation",
+            "question": "I installed SynthMaster/SynthMaster Player/SynthMaster One on MacOS, but my DAW (Logic/GarageBand/etc) is not detecting the AudioUnit plug-in",
+            "answer": "When installing make sure your DAW application is not running. Also, after the installation, please delete the AudioUnits cache by following these steps 1. In Finder, go to Go then Go to Folder in the menu bar at the top. 2. Copy-paste the following path then click Go: ~/Library/Caches. 3. Delete any folder named AudioUnitCache. 4. Delete any file named com.apple.audiounits.cache. 5. Reboot the system."
+        },
+        {
+            "category": "Installation",
+            "question": "On how many computers am I allowed to install SynthMaster ?",
+            "answer": "You are allowed to install SynthMaster/SynthMaster Player on up to 5 machines at a time."
+        },
+        {
+            "category": "Installation",
+            "question": "How do I register my information on your web site ?",
+            "answer": "You don't have to register your details with us. When you make your purchase at PayPal, we already receive your details from PayPal, and we enter those into our database automatically."
+        },
+        {
+            "category": "Installation",
+            "question": "I am getting 'License Key File contains invalid values' error. What should I do ?",
+            "answer": "Please contact us, we will send you a new serial number."
+        },
+        {
+            "category": "Installation",
+            "question": "How can I verify which version of SynthMaster I have installed ?",
+            "answer": "To verify your version, move the mouse over the “KV331 Audio SynthMaster” text area on the header, SynthMaster will display the current version on the tooltip area"
+        },
+        {
+            "category": "Installation",
+            "question": "I installed SynthMaster but it doesn't show on my desktop, or under 'Applications' folder on MacOS",
+            "answer": "On MacOS, we don't have standalone versions of our products, they only work as plug-ins. You can instantiate them under applications known as DAW (digital audio workstation). If you don't have a DAW application, you can download a freeware VST/AU host application off the web, and use SynthMaster inside it. On Windows though, we provide standalone versions of SynthMaster, SynthMaster Player or SynthMaster One."
+        },
+        {
+            "category": "Preset Banks",
+            "question": "Can I use SynthMaster One expansions with SynthMaster/SynthMaster Player?",
+            "answer": "SynthMaster One is a different product, therefore its presets can not be loaded into SynthMaster/SynthMaster Player. However, that will change when we release SynthMaster 3. SynthMaster 3 will be able to load SynthMaster One presets as layers."
+        },
+        {
+            "category": "Preset Banks",
+            "question": "I purchased SynthMaster One expansions from you guys. How can I download and install them?",
+            "answer": "To download and install the expansion bank(s) from within SynthMaster One, please follow these steps: 1. Run SynthMaster One (plugin or standalone) 2. Click on the 'Browse' button to switch to the Preset Browser page 3. Click on the 'KV331Audio Shop' button to switch to the KV331 Audio Shop page 4. Right click on the products list, select 'Refresh my licenses' menu. 5. Right click on the products list, select 'Restore my expansions' menu, SynthMaster One will start downloading the bank(s)"
+        },
+        {
+            "category": "Preset Banks",
+            "question": "Can I purchase and use KV331 Audio's preset expansion banks in SynthMaster Player ?",
+            "answer": "Yes, you can."
+        },
+        {
+            "category": "Preset Banks",
+            "question": "Can I purchase and use third party preset expansion banks in SynthMaster Player ?",
+            "answer": "Unfortunately, that is not possible."
+        },
+        {
+            "category": "Preset Banks",
+            "question": "How can I import preset expansion banks into SynthMaster Player ?",
+            "answer": "Please see pages 10-11 of SynthMaster Player User Manual, importing preset banks is explained there."
+        },
+        {
+            "category": "Preset Banks",
+            "question": "Will I get future preset banks for free if I purchase 'Everything Bundle' ?",
+            "answer": "Yes you will! Everything Bundle contains SynthMaster One, SynthMaster, free upgrade to SynthMaster 3 and it includes all current/future expansions released by KV331 Audio!"
+        },
+        {
+            "category": "Preset Banks",
+            "question": "I purchased some preset banks from you guys, and now want to upgrade to 'Everything Bundle'. Can I receive credit for the banks that I already own ?",
+            "answer": "Yes that is possible. When we do seasonal sales (Spring Sale, Summer Sale, etc), we calculate the credit amount for each user, and send him/her a coupon code for that credit amount. Because of that, please make sure your registered email with us can receive email from us!"
+        },
+        {
+            "category": "Preset Banks",
+            "question": "I purchased SynthMaster/SynthMaster Player expansions from you guys. How can I download them?",
+            "answer": "To download and install the expansion bank(s) from within SynthMaster/SynthMaster Player, please follow these steps: 1. Run SynthMaster/SynthMaster Player (plugin or standalone) 2. Right click on the plugin window and click on ''Check for Updates'' menu. This will refresh the products list 3. Click on the 'Browse' button to switch to the Preset Browser page 4. Click on the 'Purchased' button to list the banks you purchased from us 5. Right click on the banks list, select 'Refresh my licenses' menu. 6. Right click on the banks list, select 'Restore my expansions' menu. SynthMaster will start downloading the bank(s)"
+        },
+        {
+            "category": "Refund & Return Policy",
+            "question": "How can I get a refund for an IAP purchase I made for SynthMaster Player iOS/SynthMaster One iOS?",
+            "answer": "You should contact Apple for refunds, as they handle the payment processing in the AppStore."
+        },
+        {
+            "category": "Refund & Return Policy",
+            "question": "I incorrectly purchased one of your products twice. Can I get a refund?",
+            "answer": "Absolutely. Contact us and we'll refund your purchase immediately."
+        },
+        {
+            "category": "Refund & Return Policy",
+            "question": "I purchased one of your products, however it fails to work on my system. Can I get a refund ?",
+            "answer": "If the SynthMaster, SynthMaster Player or any of our preset expansion banks fail to work on your system, please contact us first. We will try to resolve the issue as soon as possible. As stated in our license agreement, if we can not resolve the issue in 7 (seven) business days, we will refund your purchase amount back."
+        },
+        {
+            "category": "Refund & Return Policy",
+            "question": "I purchased one of your products, however it was an impulsive buy and I did not like the product. Can I get a refund?",
+            "answer": "You are welcome to resell your license, we will waive the transfer fee of $15. We would highly encourage our potential buyers to try out SynthMaster DEMO or SynthMaster Player FREE and also listen to the audio demos of our preset banks before making their final purchasing decision."
+        },
+        {
+            "category": "License Transfer",
+            "question": "Can I transfer my current 'Academic' license to somebody else ?",
+            "answer": "If that person is a student, you can transfer your license. Please keep in mind that $15 license transfer fee also applies when transferring academic licenses."
+        },
+        {
+            "category": "License Transfer",
+            "question": "I want to transfer my license to somebody else. What is the procedure ? Is there a transfer fee ?",
+            "answer": "When you find the buyer, please contact us, the trasfer fee is $15."
+        },
+        {
+            "category": "License Transfer",
+            "question": "Can I transfer preset expansion banks that I purchased in the past?",
+            "answer": "You can not transfer banks individually. You can transfer your entire license (SynthMaster + preset banks) only."
+        },
+        {
+            "category": "License Transfer",
+            "question": "I decided to resell my current license. Where is a good place to announce that?",
+            "answer": "You can check out KVR Audio Marketplace to resell your license."
+        }
+    ]
+  }
+}
